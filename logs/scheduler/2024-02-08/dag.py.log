@@ -1,0 +1,676 @@
+[2024-02-08T02:46:07.142+0100] {processor.py:161} INFO - Started process (PID=12300) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:46:07.144+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:46:07.145+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:46:07.144+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:46:07.157+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:46:07.154+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/dag.py", line 45, in <module>
+    task_1_ingestion >> task_job
+NameError: name 'task_1_ingestion' is not defined
+[2024-02-08T02:46:07.158+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:46:07.197+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.061 seconds
+[2024-02-08T02:47:54.376+0100] {processor.py:161} INFO - Started process (PID=12455) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:47:54.379+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:47:54.381+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:47:54.380+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:47:54.398+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:47:54.393+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/dag.py", line 45, in <module>
+    task_1_ingestion >> task_job
+NameError: name 'task_1_ingestion' is not defined
+[2024-02-08T02:47:54.398+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:47:54.447+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.075 seconds
+[2024-02-08T02:48:48.173+0100] {processor.py:161} INFO - Started process (PID=13010) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:48:48.179+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:48:48.180+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:48:48.180+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:48:48.195+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:48:48.194+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/dag.py", line 45, in <module>
+    task_1_ingestion >> task_job
+NameError: name 'task_1_ingestion' is not defined
+[2024-02-08T02:48:48.198+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:48:48.294+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.126 seconds
+[2024-02-08T02:49:39.211+0100] {processor.py:161} INFO - Started process (PID=13111) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:49:39.220+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:49:39.221+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:49:39.221+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:49:39.241+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:49:39.240+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/dag.py", line 45, in <module>
+    task_1_ingestion >> task_job
+NameError: name 'task_1_ingestion' is not defined
+[2024-02-08T02:49:39.242+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:49:39.313+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.113 seconds
+[2024-02-08T02:50:39.468+0100] {processor.py:161} INFO - Started process (PID=13622) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:50:39.471+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:50:39.474+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:50:39.473+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:50:39.507+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:50:39.487+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/dag.py", line 45, in <module>
+    task_1_ingestion >> task_job
+NameError: name 'task_1_ingestion' is not defined
+[2024-02-08T02:50:39.508+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:50:39.559+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.101 seconds
+[2024-02-08T02:51:22.048+0100] {processor.py:161} INFO - Started process (PID=13670) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:51:22.052+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:51:22.056+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.055+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:51:22.085+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.079+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T02:51:22.086+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:51:22.276+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.274+0100] {override.py:1769} INFO - Created Permission View: can edit on DAG:PRODUIT
+[2024-02-08T02:51:22.297+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.297+0100] {override.py:1769} INFO - Created Permission View: can delete on DAG:PRODUIT
+[2024-02-08T02:51:22.319+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.319+0100] {override.py:1769} INFO - Created Permission View: can read on DAG:PRODUIT
+[2024-02-08T02:51:22.320+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.320+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:51:22.333+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.333+0100] {dag.py:3055} INFO - Creating ORM DAG for PRODUIT
+[2024-02-08T02:51:22.347+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:22.346+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-14T12:00:00+00:00, run_after=2024-01-29T12:00:00+00:00
+[2024-02-08T02:51:22.393+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.357 seconds
+[2024-02-08T02:51:59.800+0100] {processor.py:161} INFO - Started process (PID=13711) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:51:59.805+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:51:59.809+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:59.808+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:51:59.830+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:59.829+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T02:51:59.831+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:51:59.861+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:59.860+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:51:59.923+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:51:59.923+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-14T12:00:00+00:00, run_after=2024-01-29T12:00:00+00:00
+[2024-02-08T02:52:00.006+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.218 seconds
+[2024-02-08T02:52:57.768+0100] {processor.py:161} INFO - Started process (PID=13788) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:52:57.774+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:52:57.780+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:52:57.779+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:52:57.881+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:52:57.871+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T02:52:57.882+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:52:57.908+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:52:57.908+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:52:57.942+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:52:57.942+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T02:52:57.989+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.225 seconds
+[2024-02-08T02:53:38.302+0100] {processor.py:161} INFO - Started process (PID=13823) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:53:38.318+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:53:38.322+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:53:38.319+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:53:38.351+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:53:38.349+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T02:53:38.352+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:53:38.389+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:53:38.388+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:53:38.420+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:53:38.420+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T02:53:38.466+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.178 seconds
+[2024-02-08T02:56:10.241+0100] {processor.py:161} INFO - Started process (PID=13909) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:56:10.246+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:56:10.248+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:56:10.247+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:56:10.290+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:56:10.264+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T02:56:10.291+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:56:10.358+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:56:10.358+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:56:10.415+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:56:10.415+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T02:56:10.514+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.279 seconds
+[2024-02-08T02:58:44.632+0100] {processor.py:161} INFO - Started process (PID=13990) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:58:44.642+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T02:58:44.649+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:58:44.648+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:58:44.979+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:58:44.965+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T02:58:44.980+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T02:58:45.020+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:58:45.020+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:58:45.049+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:58:45.049+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T02:58:45.143+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.515 seconds
+[2024-02-08T03:00:55.626+0100] {processor.py:161} INFO - Started process (PID=14061) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:00:55.664+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:00:55.666+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:00:55.665+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:00:55.682+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:00:55.682+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:00:55.683+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:00:55.728+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:00:55.727+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:00:55.760+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:00:55.760+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:00:55.882+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.261 seconds
+[2024-02-08T03:01:50.137+0100] {processor.py:161} INFO - Started process (PID=14134) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:01:50.146+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:01:50.148+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:01:50.147+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:01:50.247+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:01:50.216+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:01:50.248+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:01:50.303+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:01:50.302+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:01:50.433+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:01:50.432+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:01:50.650+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.523 seconds
+[2024-02-08T03:03:01.480+0100] {processor.py:161} INFO - Started process (PID=14221) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:03:01.488+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:03:01.490+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:01.489+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:03:01.517+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:01.513+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:03:01.518+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:03:01.549+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:01.549+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:03:01.580+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:01.580+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:03:01.667+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.192 seconds
+[2024-02-08T03:03:52.844+0100] {processor.py:161} INFO - Started process (PID=14274) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:03:52.852+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:03:52.854+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:52.853+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:03:52.873+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:52.872+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:03:52.875+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:03:52.895+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:52.895+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:03:52.922+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:03:52.922+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:03:52.959+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.119 seconds
+[2024-02-08T03:04:23.824+0100] {processor.py:161} INFO - Started process (PID=14302) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:04:23.826+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:04:23.828+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:04:23.827+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:04:23.856+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:04:23.849+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:04:23.858+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:04:23.880+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:04:23.879+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:04:23.907+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:04:23.906+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:04:23.943+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.124 seconds
+[2024-02-08T03:05:24.472+0100] {processor.py:161} INFO - Started process (PID=14341) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:05:24.477+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:05:24.478+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:05:24.478+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:05:24.510+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:05:24.504+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:05:24.511+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:05:24.529+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:05:24.529+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:05:24.555+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:05:24.555+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:05:24.600+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.132 seconds
+[2024-02-08T03:06:10.144+0100] {processor.py:161} INFO - Started process (PID=14383) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:06:10.148+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:06:10.151+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:10.150+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:06:10.172+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:10.165+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:06:10.173+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:06:10.193+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:10.193+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:06:10.217+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:10.217+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:06:10.254+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.115 seconds
+[2024-02-08T03:06:42.362+0100] {processor.py:161} INFO - Started process (PID=14416) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:06:42.364+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:06:42.365+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:42.365+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:06:42.388+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:42.386+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:06:42.388+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:06:42.412+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:42.412+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:06:42.444+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:06:42.443+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:06:42.484+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.127 seconds
+[2024-02-08T03:07:13.266+0100] {processor.py:161} INFO - Started process (PID=14446) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:07:13.270+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:07:13.272+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:13.271+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:07:13.299+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:13.292+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:07:13.300+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:07:13.325+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:13.325+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:07:13.357+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:13.356+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:07:13.396+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.135 seconds
+[2024-02-08T03:07:50.632+0100] {processor.py:161} INFO - Started process (PID=14553) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:07:50.637+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:07:50.638+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:50.638+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:07:50.691+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:50.683+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:07:50.692+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:07:50.714+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:50.714+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:07:50.752+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:07:50.752+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:07:50.812+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.184 seconds
+[2024-02-08T03:08:28.368+0100] {processor.py:161} INFO - Started process (PID=14590) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:08:28.372+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:08:28.374+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:08:28.373+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:08:28.402+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:08:28.396+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:08:28.403+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:08:28.444+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:08:28.444+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:08:28.479+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:08:28.479+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:08:28.518+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.155 seconds
+[2024-02-08T03:09:00.940+0100] {processor.py:161} INFO - Started process (PID=14625) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:09:00.941+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:09:00.943+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:00.942+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:09:00.973+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:00.972+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:09:00.974+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:09:01.004+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:01.004+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:09:01.034+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:01.033+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:09:01.082+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.147 seconds
+[2024-02-08T03:09:31.489+0100] {processor.py:161} INFO - Started process (PID=14655) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:09:31.493+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:09:31.496+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:31.495+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:09:31.531+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:31.521+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:09:31.532+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:09:31.557+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:31.557+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:09:31.593+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:09:31.593+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:09:31.645+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.160 seconds
+[2024-02-08T03:10:03.332+0100] {processor.py:161} INFO - Started process (PID=14685) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:10:03.334+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:10:03.335+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:03.335+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:10:03.352+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:03.351+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:10:03.354+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:10:03.373+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:03.373+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:10:03.402+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:03.402+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:10:03.470+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.142 seconds
+[2024-02-08T03:10:37.580+0100] {processor.py:161} INFO - Started process (PID=14714) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:10:37.585+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:10:37.589+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:37.588+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:10:37.626+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:37.618+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:10:37.627+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:10:37.657+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:37.657+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:10:37.707+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:10:37.706+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:10:37.747+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.172 seconds
+[2024-02-08T03:11:10.572+0100] {processor.py:161} INFO - Started process (PID=14743) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:11:10.574+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:11:10.577+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:10.576+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:11:10.600+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:10.599+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:11:10.601+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:11:10.625+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:10.625+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:11:10.651+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:10.651+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:11:10.704+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.137 seconds
+[2024-02-08T03:11:42.570+0100] {processor.py:161} INFO - Started process (PID=14771) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:11:42.573+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:11:42.576+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:42.575+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:11:42.608+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:42.602+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:11:42.610+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:11:42.643+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:42.642+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:11:42.689+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:11:42.689+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:11:42.740+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.176 seconds
+[2024-02-08T03:12:14.177+0100] {processor.py:161} INFO - Started process (PID=14801) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:12:14.179+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:12:14.181+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:12:14.180+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:12:14.198+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:12:14.197+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:12:14.198+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:12:14.222+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:12:14.222+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:12:14.249+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:12:14.249+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:12:14.288+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.116 seconds
+[2024-02-08T03:13:13.711+0100] {processor.py:161} INFO - Started process (PID=14858) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:13:13.716+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:13:13.718+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:13:13.717+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:13:13.745+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:13:13.740+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:13:13.746+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:13:13.776+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:13:13.775+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:13:13.800+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:13:13.800+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:13:13.872+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.164 seconds
+[2024-02-08T03:14:13.861+0100] {processor.py:161} INFO - Started process (PID=14917) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:14:13.865+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:14:13.868+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:13.867+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:14:13.888+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:13.887+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:14:13.890+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:14:13.914+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:13.914+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:14:13.948+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:13.948+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:14:13.993+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.138 seconds
+[2024-02-08T03:14:46.354+0100] {processor.py:161} INFO - Started process (PID=14952) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:14:46.358+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:14:46.361+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:46.360+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:14:46.398+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:46.388+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:14:46.399+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:14:46.433+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:46.433+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:14:46.477+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:14:46.477+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:14:46.533+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.185 seconds
+[2024-02-08T03:15:17.915+0100] {processor.py:161} INFO - Started process (PID=14988) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:15:17.918+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:15:17.919+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:17.919+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:15:17.965+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:17.958+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:15:17.965+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:15:17.997+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:17.997+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:15:18.031+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:18.031+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:15:18.074+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.164 seconds
+[2024-02-08T03:15:48.360+0100] {processor.py:161} INFO - Started process (PID=15016) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:15:48.368+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:15:48.369+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:48.368+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:15:48.402+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:48.396+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:15:48.403+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:15:48.434+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:48.433+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:15:48.480+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:15:48.479+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:15:48.530+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.175 seconds
+[2024-02-08T03:16:18.599+0100] {processor.py:161} INFO - Started process (PID=15045) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:16:18.602+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:16:18.604+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:16:18.603+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:16:18.627+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:16:18.625+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:16:18.627+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:16:18.651+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:16:18.650+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:16:18.690+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:16:18.689+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:16:18.746+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.153 seconds
+[2024-02-08T03:17:17.375+0100] {processor.py:161} INFO - Started process (PID=15103) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:17:17.379+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:17:17.381+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:17:17.380+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:17:17.409+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:17:17.402+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:17:17.409+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:17:17.438+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:17:17.437+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:17:17.473+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:17:17.473+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:17:17.514+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.145 seconds
+[2024-02-08T03:18:14.551+0100] {processor.py:161} INFO - Started process (PID=15158) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:18:14.555+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:18:14.557+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:14.557+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:18:14.581+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:14.580+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:18:14.581+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:18:14.610+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:14.609+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:18:14.642+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:14.642+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:18:14.686+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.140 seconds
+[2024-02-08T03:18:45.593+0100] {processor.py:161} INFO - Started process (PID=15186) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:18:45.594+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:18:45.596+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:45.596+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:18:45.628+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:45.622+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:18:45.629+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:18:45.659+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:45.659+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:18:45.696+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:18:45.696+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:18:45.757+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.170 seconds
+[2024-02-08T03:19:54.400+0100] {processor.py:161} INFO - Started process (PID=15308) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:19:54.404+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:19:54.405+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:19:54.404+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:19:54.437+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:19:54.426+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:19:54.438+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:19:54.460+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:19:54.460+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:19:54.488+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:19:54.488+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:19:54.526+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.131 seconds
+[2024-02-08T03:20:31.229+0100] {processor.py:161} INFO - Started process (PID=15341) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:20:31.231+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:20:31.232+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:20:31.232+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:20:31.262+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:20:31.255+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:20:31.262+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:20:31.286+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:20:31.285+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:20:31.317+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:20:31.316+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:20:31.354+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.132 seconds
+[2024-02-08T03:21:06.055+0100] {processor.py:161} INFO - Started process (PID=15370) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:21:06.060+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:21:06.062+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:06.061+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:21:06.091+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:06.085+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:21:06.092+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:21:06.116+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:06.115+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:21:06.148+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:06.147+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:21:06.191+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.143 seconds
+[2024-02-08T03:21:40.270+0100] {processor.py:161} INFO - Started process (PID=15402) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:21:40.273+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:21:40.274+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:40.274+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:21:40.298+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:40.293+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:21:40.299+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:21:40.321+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:40.321+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:21:40.346+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:21:40.346+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:21:40.384+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.119 seconds
+[2024-02-08T03:22:13.011+0100] {processor.py:161} INFO - Started process (PID=15429) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:22:13.016+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:22:13.018+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:13.018+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:22:13.051+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:13.041+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:22:13.052+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:22:13.079+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:13.078+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:22:13.112+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:13.112+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:22:13.150+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.145 seconds
+[2024-02-08T03:22:44.758+0100] {processor.py:161} INFO - Started process (PID=15460) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:22:44.788+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:22:44.791+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:44.790+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:22:44.855+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:44.833+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:22:44.858+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:22:44.939+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:44.938+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:22:44.968+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:22:44.968+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:22:45.008+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.263 seconds
+[2024-02-08T03:23:17.181+0100] {processor.py:161} INFO - Started process (PID=15500) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:23:17.183+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:23:17.184+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:17.184+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:23:17.232+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:17.208+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:23:17.239+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:23:17.266+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:17.265+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:23:17.299+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:17.298+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:23:17.370+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.196 seconds
+[2024-02-08T03:23:55.565+0100] {processor.py:161} INFO - Started process (PID=15549) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:23:55.570+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:23:55.573+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:55.572+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:23:55.628+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:55.613+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:23:55.629+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:23:55.662+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:55.662+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:23:55.694+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:23:55.693+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:23:55.746+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.189 seconds
+[2024-02-08T03:24:47.105+0100] {processor.py:161} INFO - Started process (PID=15616) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:24:47.108+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:24:47.110+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:24:47.109+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:24:47.162+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:24:47.153+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:24:47.163+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:24:47.189+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:24:47.189+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:24:47.218+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:24:47.218+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:24:47.254+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.156 seconds
+[2024-02-08T03:25:29.865+0100] {processor.py:161} INFO - Started process (PID=15680) to work on /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:25:29.887+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/dag.py for tasks to queue
+[2024-02-08T03:25:29.888+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:25:29.888+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:25:30.013+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:25:29.987+0100] {templater.py:95} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 93, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound:  /home/ubuntu/Desktop/project/injections/injection.sh
+[2024-02-08T03:25:30.015+0100] {processor.py:840} INFO - DAG(s) 'PRODUIT' retrieved from /home/ubuntu/airflow/dags/dag.py
+[2024-02-08T03:25:30.113+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:25:30.113+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T03:25:30.160+0100] {logging_mixin.py:188} INFO - [2024-02-08T03:25:30.160+0100] {dag.py:3820} INFO - Setting next_dagrun for PRODUIT to 2024-01-29T12:00:00+00:00, run_after=2024-02-13T12:00:00+00:00
+[2024-02-08T03:25:30.374+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/dag.py took 0.526 seconds
